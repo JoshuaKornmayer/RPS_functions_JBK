@@ -1,4 +1,8 @@
-prompt("Choose rock, paper, or scissors?");
+
+// function promptHand(){
+
+// }
+
 
 
 var playerWin = 0;
@@ -23,7 +27,7 @@ function playGame(player1, computer2, playUntil){
         }
 
         var computerHand = getHand();
-        var userHand = getHand();
+        var userHand = prompt("Choose rock, paper, or scissors");
 
         console.log(userHand);
         console.log(computerHand);
